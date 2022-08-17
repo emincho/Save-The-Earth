@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/mYgGsgUeqbMMYbZbTK7uP6-1200-80.jpg')
+}
+#game{
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('https://cdn.wallpapersafari.com/34/43/mI6Kth.jpg');
+    margin: auto;
+    overflow: hidden;
+    border:1px solid white;
+      box-shadow: 0 0 50px white;
+}
+#player{
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    position: relative;
+    top:10px;
+    left: 190px;
+    z-index: 1000000;
+    
+}
+.block{
+    width: 600px;
+    height: 20px;
+    background-color: #e1f5e5;
+    position: relative;
+    top: 300px;
+    margin-top: -20px;
+    border-left:1px solid #39ff14;
+    box-shadow: 0 0 50px #39ff14;
+}
+.hole{
+    width: 60px;
+    height: 20px;
+   background-color: red;
+    position: relative;
+    top:400px;
+    margin-top: -20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#restart{
+position: relative;
+    top:200px;
+    height:30px;
+    width:400px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+     overflow: hidden;
+    color:white;
+    background:none;
+    border:1px solid white
+}
+#restart:hover{
+     color: #111;
+            background: #39ff14;
+            box-shadow: 0 0 50px #39ff14;
+    border: none
+}
+h1{
+text-align: center;
+margin: 0 auto;
+position: relative;
+top:200px;
+font-family: sans-serif;
+border: 1px solid white;
+width:400px;
+background-color: black;
+    color:white
+}
+
+#scoreboard{
+        text-align: center;
+    top:200px;
+    position: relative;
+    color:white;
+    background-color: black;
+    height:20px;
+    width:400px;
+    margin:0 auto;
+    border:1px solid white;
+    font-family: sans-serif
+}
